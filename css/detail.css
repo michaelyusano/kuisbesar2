@@ -1,0 +1,84 @@
+.checked {
+    color: orange;
+  }
+.logoHeader{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+.photoContent{
+    width: 40%;
+    margin-left: 29%;
+    margin-top: 10px;
+}
+.textDetail{
+    font-size: 20px;
+}
+.textDetail h3{
+    margin-top: -14px;
+    margin-bottom: -30px;
+    text-align: center;
+}
+
+.rounded-circle{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.btn{
+    font-size: 1rem;
+    margin-top: 5%;
+}
+
+.iconRight{
+    width: 70%;
+    margin-top: 20%;
+    margin-right: 30%;
+    float: right;
+}
+
+footer{
+    background-color: #004288;
+}
+.text-center{
+    margin: 0px;
+}
+
+@media (min-width: 992px){
+    .container{
+        width: 100%;
+    }
+
+    .logoHeader{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+    .iconRight{
+        width: 30%;
+        margin-top: 20%;
+        margin-right: 6%;
+        float: right;
+    }
+    .photoContent{
+        width: 40%;
+        margin-top: -10px;
+        margin-left: 30%;
+    }
+    .textDetail{
+        font-size: 20px;
+    }
+    .textDetail h3{
+        text-align: left;
+    }
+    .btn{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .rounded-circle{
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 25%;
+    }
+}

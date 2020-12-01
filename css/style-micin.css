@@ -1,0 +1,216 @@
+/* Login page */
+.login-text{
+    font-size: 20px;
+}
+.login-form{
+    border-radius: 5px;
+    margin-top: 10%;
+}
+.login-border{
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: grey;
+    width: 65%;
+    align-items: center;
+}
+.logo-login-head{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Newbook page */
+.logo-search-head{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+.search-box{
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.icon-right{
+    width: 90%;
+    margin-top: 20%;
+    margin-right: 30%;
+    float: right;
+}
+
+/* Statistics */
+.logo-stats-head{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.center-graph{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container{
+    width: 100%;
+}
+.photo{
+    width: 60%;
+    height: 45%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.button{
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: blue;
+    margin-top: 10%;
+    margin-bottom: 10%;;
+}
+.icon{
+    width: 5%;
+    height: 2%;
+}
+.newbook{
+    font-size: 2rem;
+}
+.text-newbook{
+    font-size: 1rem;
+}
+
+
+.photoContent{
+    width: 40%;
+}
+
+.btn{
+    font-size: 1rem;
+    margin-top: 5%;
+}
+.footerBackground{
+    margin-top: 5%;
+    background-color: blue;;
+}
+.footerText{
+    font-size: 0.7rem;
+    color : white;
+}
+.tabel1{
+    width:20px; 
+    height:30px; 
+    background: red;
+    margin-right: 1.1rem;
+}
+.tabel2{
+    width:20px; 
+    height:150px; 
+    background: blue;
+    margin-right: 1.1rem;
+}
+.tabel3{
+    width:20px; 
+    height:80px; 
+    background: purple;
+    margin-right: 1.1rem;
+}
+.tabel4{
+    width:20px; 
+    height:200px; 
+    background: black;
+    margin-right: 1.1rem;
+}
+.tabel5{
+    width:20px; 
+    height:250px; 
+    background: brown;
+    margin-right: 1.1rem;
+}
+.colKiri{
+    margin-left: 5%;
+}
+.colKanan{
+    margin-right: 5%;
+}
+.judulGraph{
+    font-size: 1.2rem;
+}
+.grafikBorder{
+    border-color: black;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.legendaBorder{
+    border-radius: 15px;
+    border-color: black;
+    margin-left: 3%;
+}
+.legendaKonten{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+@media (min-width: 992px){
+    /* Login page */
+    .login-border{
+        width: 30%;
+    }
+    .loginText{
+        font-size: 20px;
+    }
+
+    /* Newbook page */
+    .search-box{
+        width: 90%;
+        border-radius: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .icon-right{
+        width: 50%;
+        margin-top: 10%;
+        margin-right: 6%;
+        float: right;
+    }
+    .logo-search-head{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+    .newbook{
+        font-size: 2rem;
+    }
+    .text-newbook{
+        font-size: 1rem;
+    }
+
+    /* Statistics */
+    .container{
+        width: 100%;
+    }
+    .photo{
+        width: 25%;
+        height: 15%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+
+    .button{
+        font-size: 15px;
+    }
+    .photoContent{
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .footerBackground{
+        margin-top: 5%;
+        background-color: blue;;
+    }
+    .footerText{
+        font-size: 20px;
+        color : white;
+    }
+    
+}

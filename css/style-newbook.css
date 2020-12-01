@@ -1,0 +1,114 @@
+.container{
+    width: 100%;
+}
+.photo{
+    width: 60%;
+    height: 45%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.cardBorder{
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: grey;
+    width: 65%;
+    align-items: center;
+}
+.loginText{
+    font-size: 20px;
+}
+.cardText{
+    border-radius: 20px;
+    margin-top: 10%;
+}
+.button{
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: blue;
+    margin-top: 10%;
+    margin-bottom: 10%;;
+}
+.icon{
+    width: 5%;
+    height: 2%;
+}
+.logoHeader{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+.searchBox{
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.iconRight{
+    width: 90%;
+    margin-top: 20%;
+    margin-right: 30%;
+    float: right;
+}
+.newBook{
+    font-size: 1.8rem;
+}
+.photoContent{
+    width: 40%;
+}
+.textNewBook{
+    font-size: 1rem;
+}
+.btn{
+    font-size: 1rem;
+    margin-top: 5%;
+}
+
+@media (min-width: 992px){
+    .container{
+        width: 100%;
+    }
+    .photo{
+        width: 25%;
+        height: 15%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+     .cardBorder{
+        width: 30%;
+    }
+    .loginText{
+        font-size: 20px;
+    }
+    .button{
+        font-size: 15px;
+    }
+    .logoHeader{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+    .searchBox{
+        width: 90%;
+        border-radius: 20px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
+    .iconRight{
+        width: 50%;
+        margin-top: 10%;
+        margin-right: 6%;
+        float: right;
+    }
+    .photoContent{
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .textNewBook{
+        font-size: 30px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+}
